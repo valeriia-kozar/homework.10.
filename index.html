@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>BisLight</title>
+</head>
+<body>
+    <div id="container">
+        <header class="head-wrapper">
+            <div class="head">
+                <div class="logo-head"><img src="img/logo.png" alt="logo"></div>
+                <nav>
+                    <ul class="nav-items">
+                        <li class="nav-item"><a href="#" class="nav-item-link">home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">about us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link dropdown-list-item">services</a>
+                            <div class="icon-down-arrow-svgrepo-com"></div> 
+                            <ul class="nav-items-dropdown">
+                                <li class="nav-item-dropdown"><a href="#" class="nav-item-dropdown-link">Web Design</a></li>
+                                <li class="nav-item-dropdown"><a href="#" class="nav-item-dropdown-link">Wordpress Design</a></li>
+                                <li class="nav-item-dropdown"><a href="#" class="nav-item-dropdown-link">Mobile App Development</a></li>
+                                <li class="nav-item-dropdown"><a href="#" class="nav-item-dropdown-link">Internet Marketing</a></li>
+                                <li class="nav-item-dropdown"><a href="#" class="nav-item-dropdown-link">Social Media Management</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-item-link dropdown-list-item">portfolio</a>  
+                        <div class="icon-down-arrow-svgrepo-com"></div> 
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="banner-container">
+            <div class="carousel">
+                <div>
+                    <div class="banner">
+                        <div class="banner-content">
+                            <h1>We design clean, crisp & memorable icons</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img">
+                    <img src="img/corgi.jpg" alt="banner">
+                </div>
+           </div>
+        </div>
+        <div class="articles">
+            <div class="article-items">
+                <div class="article-item">
+                    <div class="icon-clean-theme icons"></div> 
+                    <h1 class="title">clean theme</h1>
+                    <p class="text">Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. Duis porta gravida augue sed viverra. Quisque at nulla leo, non aliquet mi.</p>
+                    <iframe src="icons/right-arrow-svgrepo-com.svg" width="7px" height="7px" frameborder="0" ></iframe>
+                    <a href="#" class="link">Read More</a>
+                </div>
+                <div class="article-item">
+                    <div class="icon-responsive-design icons"></div>
+                    <h1 class="title">responsive design</h1>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+                    <iframe src="icons/right-arrow-svgrepo-com.svg" width="7px" height="7px" frameborder="0" ></iframe>
+                    <a href="#" class="link">Read More</a>
+                </div>
+                <div class="article-item">
+                    <div class="icon-fully-layerd-psd icons"></div>
+                    <h1 class="title">fully layerd psd</h1>
+                    <p class="text">Phasellus lobortis metus non augue sodales volutpat. Vestibulum sit amet nibh eros, hendrerit venenatis est. In vitae nulla nec purus cursus pretium sed id magna.</p>
+                    <iframe src="icons/right-arrow-svgrepo-com.svg" width="7px" height="7px" frameborder="0" ></iframe> 
+                    <a href="#" class="link">Read More</a>
+                </div>
+                <div class="article-item">
+                    <div class="icon-ready-for-coding icons"></div>
+                    <h1 class="title">ready for coding</h1>
+                    <p class="text">Vivamus convallis feugiat mauris sed posuere. Nam rutrum, quam quis euismod commodo, elit est porta quam, non placerat eros neque porta ante. Fusce quis odio urna.</p>
+                    <iframe src="icons/right-arrow-svgrepo-com.svg" width="7px" height="7px" frameborder="0" ></iframe>
+                    <a href="#" class="link">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="download-container">
+            <div class="download-box">
+                <p class="second-text">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p> 
+                <button class="download">
+                    <span class="icon-download-psd "></span>
+                    <a href="#"  class="download-link">download psd</a> 
+                </button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="third-text"> Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com. 
+                <br> Client Logos are copyright and trademark of the respective owners / companies. </p>
+                <div class="logo-footer"><img src="img/logo.png" alt="logo"></div>
+            </div>
+        </footer>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.carousel').slick({
+                    dots:true
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
