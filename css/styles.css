@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
   
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #container {
     margin: 0 auto;
     width: 100%;
@@ -22,13 +26,13 @@ ul {
 
 .head {
     display: flex;
-    padding: 35px 0 45px 0;
-    justify-content: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
 }
 
-.logo-head {
-    margin-right: 200px;
-}
 .nav-items {
     display: inline-flex;
     align-items: center;
@@ -38,6 +42,7 @@ ul {
 .nav-item {
     position: relative;
     margin-right: 20px;
+    border-top: 5px solid transparent;
 }
 
 .nav-item:hover {
@@ -70,9 +75,14 @@ ul {
     left: 0;
     width: 200px;
     display: none;
-    padding: 25px 0 25px 15px;
+    padding: 25px 0 20px 15px;
     border-bottom: 5px solid #29abc7;
     z-index: 10;
+    margin-top: 10px;
+}
+
+.nav-item-dropdown:last-child {
+    border-bottom: none;
 }
 
 .nav-item-dropdown {
@@ -81,6 +91,7 @@ ul {
 }
 
 .nav-item-dropdown-link {
+    font-size: 13px;
     text-decoration: none;
     color: #000000;
     border-bottom: 1px solid #e7e7e7;
@@ -92,7 +103,7 @@ ul {
 }
 
 .dropdown-list-item {
-    padding: 10px 27px 14px 11px;
+    padding: 10px 27px 11px 11px;
 }
 
 .down-arrow {
@@ -152,7 +163,7 @@ ul {
 
 .articles {
     background-color: #e7ebf1;
-    padding: 50px 0;
+    height: 300px;
     position: relative;
 }
 
@@ -161,6 +172,8 @@ ul {
     font-size: 13px;
     width: 1000px;
     margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
 }
 
 .title {
@@ -178,11 +191,12 @@ ul {
     border-radius: 50%;
     background: #2aacc8;
     position: absolute;
-    top: 60px;
+    top: 10px;
 }
 
 .article-item {
     padding-right: 58px;
+    position: relative;
 }
 
 .article-item:nth-child(4n) {
@@ -201,9 +215,17 @@ ul {
     margin: 35px 0 30px 0;
 }
 
+.img-angle {
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 205px;
+}
+
 .link {
     text-decoration: none;
     color: #5dbdd3;
+    margin-left: 20px;
 }
 
 .link:hover {
@@ -225,7 +247,7 @@ ul {
     margin: 0 auto;
 }
 
-.second-text {
+.download-text {
     font-size: 16px;
     line-height: 26px;
     color: #363636;
@@ -233,7 +255,8 @@ ul {
 
 .download {
     width: 530px;
-    padding: 15px 10px 20px 10px;
+    height: 60px;
+    padding: 0px 9px 5px 7px;
     background: linear-gradient(#92f5fe, #30b0ca);
     border: 1px solid #29abc7;
     border-radius: 10px;
@@ -256,27 +279,25 @@ ul {
 .icon-download-psd {
     font-size: 30px;
     color: #ffffff;
-    margin-right: 22px;
+    margin-right: 10px;
 }
 
 .footer {
     width: 100%;
     background: #e8ebf1;
     border-bottom: 1px solid #d9d9d9;
-    padding: 30px 20px 30px 0;
 }
 
 .footer-content {
     width: 1000px;
+    height: 90px;
+    align-items: center;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
-.third-text {
+.footer-text {
     font-size: 13px;
     line-height: 18px;
-}
-
-.logo-footer {
-    margin-left: 280px;
 }
