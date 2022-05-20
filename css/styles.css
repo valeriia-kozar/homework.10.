@@ -184,7 +184,7 @@ ul {
     padding-left: 52px;
 }
 
-.article-item::before {
+.article-icon::before {
     content: '';
     width: 45px;
     height: 45px;
@@ -192,6 +192,7 @@ ul {
     background: #2aacc8;
     position: absolute;
     top: 10px;
+    left: 0;
 }
 
 .article-item {
@@ -206,6 +207,7 @@ ul {
 .icons {
     color: #ffffff;
     position: relative;
+    z-index: 3;
     left: 10px;
     top: 20px;
     font-size: 25px;
